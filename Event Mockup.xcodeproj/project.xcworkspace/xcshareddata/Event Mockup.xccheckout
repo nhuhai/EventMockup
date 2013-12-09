@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0031CC01-D7C6-4E5C-8449-11A50CABA2EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Event Mockup</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FBE7792D-5615-4B0B-9C24-36620551A375</key>
+		<string>ssh://github.com/nhuhai/EventMockup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Event Mockup.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FBE7792D-5615-4B0B-9C24-36620551A375</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nhuhai/EventMockup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FBE7792D-5615-4B0B-9C24-36620551A375</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBE7792D-5615-4B0B-9C24-36620551A375</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Event Mockup</string>
+		</dict>
+	</array>
+</dict>
+</plist>
