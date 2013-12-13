@@ -50,20 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C2D48C0B1853B595005B0BFC /* Event Mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Mockup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D48C0B1853B595005B0BFC /* cinequest23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinequest23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D48C0E1853B595005B0BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2D48C101853B595005B0BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C2D48C121853B595005B0BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2D48C161853B595005B0BFC /* Event Mockup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Event Mockup-Info.plist"; sourceTree = "<group>"; };
 		C2D48C181853B595005B0BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2D48C1A1853B595005B0BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2D48C1C1853B595005B0BFC /* Event Mockup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Event Mockup-Prefix.pch"; sourceTree = "<group>"; };
+		C2D48C1C1853B595005B0BFC /* cinequest23-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cinequest23-Prefix.pch"; sourceTree = "<group>"; };
 		C2D48C1D1853B595005B0BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2D48C1E1853B595005B0BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C2D48C201853B595005B0BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Event Mockup/Images.xcassets"; sourceTree = "<group>"; };
-		C2D48C261853B595005B0BFC /* Event MockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Event MockupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D48C261853B595005B0BFC /* cinequest23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinequest23Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D48C271853B595005B0BFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C2D48C2F1853B595005B0BFC /* Event MockupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Event MockupTests-Info.plist"; sourceTree = "<group>"; };
+		C2D48C2F1853B595005B0BFC /* cinequest23Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cinequest23Tests-Info.plist"; sourceTree = "<group>"; };
 		C2D48C311853B595005B0BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2D48C331853B595005B0BFC /* Event_MockupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event_MockupTests.m; sourceTree = "<group>"; };
 		C2D48C48185511E5005B0BFC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		C2D48C0C1853B595005B0BFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2D48C0B1853B595005B0BFC /* Event Mockup.app */,
-				C2D48C261853B595005B0BFC /* Event MockupTests.xctest */,
+				C2D48C0B1853B595005B0BFC /* cinequest23.app */,
+				C2D48C261853B595005B0BFC /* cinequest23Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 				C2D48C161853B595005B0BFC /* Event Mockup-Info.plist */,
 				C2D48C171853B595005B0BFC /* InfoPlist.strings */,
 				C2D48C1A1853B595005B0BFC /* main.m */,
-				C2D48C1C1853B595005B0BFC /* Event Mockup-Prefix.pch */,
+				C2D48C1C1853B595005B0BFC /* cinequest23-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 		C2D48C2E1853B595005B0BFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2D48C2F1853B595005B0BFC /* Event MockupTests-Info.plist */,
+				C2D48C2F1853B595005B0BFC /* cinequest23Tests-Info.plist */,
 				C2D48C301853B595005B0BFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -257,9 +257,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2D48C0A1853B595005B0BFC /* Event Mockup */ = {
+		C2D48C0A1853B595005B0BFC /* cinequest23 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D48C371853B595005B0BFC /* Build configuration list for PBXNativeTarget "Event Mockup" */;
+			buildConfigurationList = C2D48C371853B595005B0BFC /* Build configuration list for PBXNativeTarget "cinequest23" */;
 			buildPhases = (
 				C2D48C071853B595005B0BFC /* Sources */,
 				C2D48C081853B595005B0BFC /* Frameworks */,
@@ -269,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = "Event Mockup";
+			name = cinequest23;
 			productName = "Event Mockup";
-			productReference = C2D48C0B1853B595005B0BFC /* Event Mockup.app */;
+			productReference = C2D48C0B1853B595005B0BFC /* cinequest23.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2D48C251853B595005B0BFC /* Event MockupTests */ = {
+		C2D48C251853B595005B0BFC /* cinequest23Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D48C3A1853B595005B0BFC /* Build configuration list for PBXNativeTarget "Event MockupTests" */;
+			buildConfigurationList = C2D48C3A1853B595005B0BFC /* Build configuration list for PBXNativeTarget "cinequest23Tests" */;
 			buildPhases = (
 				C2D48C221853B595005B0BFC /* Sources */,
 				C2D48C231853B595005B0BFC /* Frameworks */,
@@ -287,9 +287,9 @@
 			dependencies = (
 				C2D48C2C1853B595005B0BFC /* PBXTargetDependency */,
 			);
-			name = "Event MockupTests";
+			name = cinequest23Tests;
 			productName = "Event MockupTests";
-			productReference = C2D48C261853B595005B0BFC /* Event MockupTests.xctest */;
+			productReference = C2D48C261853B595005B0BFC /* cinequest23Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2D48C061853B595005B0BFC /* Build configuration list for PBXProject "Event Mockup" */;
+			buildConfigurationList = C2D48C061853B595005B0BFC /* Build configuration list for PBXProject "cinequest23" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -318,8 +318,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2D48C0A1853B595005B0BFC /* Event Mockup */,
-				C2D48C251853B595005B0BFC /* Event MockupTests */,
+				C2D48C0A1853B595005B0BFC /* cinequest23 */,
+				C2D48C251853B595005B0BFC /* cinequest23Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		C2D48C2C1853B595005B0BFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2D48C0A1853B595005B0BFC /* Event Mockup */;
+			target = C2D48C0A1853B595005B0BFC /* cinequest23 */;
 			targetProxy = C2D48C2B1853B595005B0BFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,9 +490,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Event Mockup/Event Mockup-Prefix.pch";
+				GCC_PREFIX_HEADER = "Event Mockup/cinequest23-Prefix.pch";
 				INFOPLIST_FILE = "Event Mockup/Event Mockup-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cinequest23;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -503,9 +503,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Event Mockup/Event Mockup-Prefix.pch";
+				GCC_PREFIX_HEADER = "Event Mockup/cinequest23-Prefix.pch";
 				INFOPLIST_FILE = "Event Mockup/Event Mockup-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cinequest23;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -526,8 +526,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Event MockupTests/Event MockupTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Event MockupTests/cinequest23Tests-Info.plist";
+				PRODUCT_NAME = cinequest23Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -545,8 +545,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Event Mockup/Event Mockup-Prefix.pch";
-				INFOPLIST_FILE = "Event MockupTests/Event MockupTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Event MockupTests/cinequest23Tests-Info.plist";
+				PRODUCT_NAME = cinequest23Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2D48C061853B595005B0BFC /* Build configuration list for PBXProject "Event Mockup" */ = {
+		C2D48C061853B595005B0BFC /* Build configuration list for PBXProject "cinequest23" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D48C351853B595005B0BFC /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D48C371853B595005B0BFC /* Build configuration list for PBXNativeTarget "Event Mockup" */ = {
+		C2D48C371853B595005B0BFC /* Build configuration list for PBXNativeTarget "cinequest23" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D48C381853B595005B0BFC /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D48C3A1853B595005B0BFC /* Build configuration list for PBXNativeTarget "Event MockupTests" */ = {
+		C2D48C3A1853B595005B0BFC /* Build configuration list for PBXNativeTarget "cinequest23Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D48C3B1853B595005B0BFC /* Debug */,

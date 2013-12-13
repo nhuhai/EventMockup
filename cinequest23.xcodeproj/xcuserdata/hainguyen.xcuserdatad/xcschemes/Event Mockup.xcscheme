@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
                BuildableName = "Event Mockup.app"
-               BlueprintName = "Event Mockup"
-               ReferencedContainer = "container:Event Mockup.xcodeproj">
+               BlueprintName = "cinequest23"
+               ReferencedContainer = "container:cinequest23.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D48C251853B595005B0BFC"
                BuildableName = "Event MockupTests.xctest"
-               BlueprintName = "Event MockupTests"
-               ReferencedContainer = "container:Event Mockup.xcodeproj">
+               BlueprintName = "cinequest23Tests"
+               ReferencedContainer = "container:cinequest23.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
             BuildableName = "Event Mockup.app"
-            BlueprintName = "Event Mockup"
-            ReferencedContainer = "container:Event Mockup.xcodeproj">
+            BlueprintName = "cinequest23"
+            ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
             BuildableName = "Event Mockup.app"
-            BlueprintName = "Event Mockup"
-            ReferencedContainer = "container:Event Mockup.xcodeproj">
+            BlueprintName = "cinequest23"
+            ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
             BuildableName = "Event Mockup.app"
-            BlueprintName = "Event Mockup"
-            ReferencedContainer = "container:Event Mockup.xcodeproj">
+            BlueprintName = "cinequest23"
+            ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
