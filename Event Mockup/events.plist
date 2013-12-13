@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>date</key><string>Thursday, 11/07/2013</string>
+      <key>events</key>
+      <array>
+        <dict>
+          <key>title</key><string>Thor the dark world</string>
+          <key>time</key><string>9:30PM</string>
+          <key>location</key><string>4 Color Fantasies</string>
+        </dict>
+        <dict>
+          <key>title</key><string>BBoys Anonymous Prsents</string>
+          <key>time</key><string>10:00PM - 1:00AM</string>
+          <key>location</key><string>Anteater Recreation Center</string>
+        </dict>
+      </array>
+    </dict>
+    <dict>
+      <key>date</key><string>Friday, 11/08/2013</string>
+      <key>events</key>
+      <array>
+        <dict>
+          <key>title</key><string>Elephant Walk and Jr.E-Walk</string>
+          <key>time</key><string>unspecified</string>
+          <key>location</key><string>College Stattion, Texas 7783</string>
+        </dict>
+        <dict>
+          <key>title</key><string>American Hwangap</string>
+          <key>time</key><string>unspecified</string>
+          <key>location</key><string>Stanford University</string>
+        </dict>
+        <dict>
+          <key>title</key><string>Beyond the Horizon: Norcal...</string>
+          <key>time</key><string>5:00PM - 2:00PM</string>
+          <key>location</key><string>Santa Cruz, CA</string>
+        </dict>
+        <dict>
+          <key>title</key><string>Taco night and good bye</string>
+          <key>time</key><string>7:00PM - 11:00PM</string>
+          <key>location</key><string>Casa de Meza</string>
+        </dict>
+        <dict>
+          <key>title</key><string>Wind Ensemble Fall Concert</string>
+          <key>time</key><string>7:30PM</string>
+          <key>location</key><string>Bing Concert Hall</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</plist>

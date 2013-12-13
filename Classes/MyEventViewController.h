@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyEventViewController : UIViewController
+@interface MyEventViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    UIFont *titleFont;
+    UIFont *timeFont;
+    UIFont *venueFont;
+}
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) UISegmentedControl *segmentedControl;
+
+
 
 @end

@@ -32,6 +32,11 @@
 		C2D48C9E185574C9005B0BFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D48C9D185574C9005B0BFC /* CoreLocation.framework */; };
 		C2D48CA2185592D7005B0BFC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48CA0185592D7005B0BFC /* SettingsViewController.m */; };
 		C2D48CA3185592D7005B0BFC /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */; };
+		C2F1888D185AE3A300BED27E /* events.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2F1888C185AE3A300BED27E /* events.plist */; };
+		C2F1888F185AEEFA00BED27E /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C2F1888E185AEEFA00BED27E /* images.jpeg */; };
+		C2F18893185B010600BED27E /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18891185B010600BED27E /* EventDetailViewController.m */; };
+		C2F18894185B010600BED27E /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F18892185B010600BED27E /* EventDetailViewController.xib */; };
+		C2F18896185B05E900BED27E /* eventImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C2F18895185B05E900BED27E /* eventImage.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +84,12 @@
 		C2D48C9F185592D7005B0BFC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Classes/SettingsViewController.h; sourceTree = "<group>"; };
 		C2D48CA0185592D7005B0BFC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Classes/SettingsViewController.m; sourceTree = "<group>"; };
 		C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		C2F1888C185AE3A300BED27E /* events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = events.plist; sourceTree = "<group>"; };
+		C2F1888E185AEEFA00BED27E /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		C2F18890185B010600BED27E /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDetailViewController.h; path = Classes/EventDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		C2F18891185B010600BED27E /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventDetailViewController.m; path = Classes/EventDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		C2F18892185B010600BED27E /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventDetailViewController.xib; path = Classes/EventDetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		C2F18895185B05E900BED27E /* eventImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eventImage.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +200,8 @@
 			children = (
 				C2D48C4B18551498005B0BFC /* MyEventViewController.h */,
 				C2D48C4C18551498005B0BFC /* MyEventViewController.m */,
+				C2F18890185B010600BED27E /* EventDetailViewController.h */,
+				C2F18891185B010600BED27E /* EventDetailViewController.m */,
 				C2D48C8B185515D7005B0BFC /* FriendEventViewController.h */,
 				C2D48C8C185515D7005B0BFC /* FriendEventViewController.m */,
 				C2D48C9F185592D7005B0BFC /* SettingsViewController.h */,
@@ -203,6 +216,7 @@
 			children = (
 				C2D48C93185516AD005B0BFC /* RearViewController.xib */,
 				C2D48C4D18551498005B0BFC /* MyEventViewController.xib */,
+				C2F18892185B010600BED27E /* EventDetailViewController.xib */,
 				C2D48C8D185515D7005B0BFC /* FriendEventViewController.xib */,
 				C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */,
 			);
@@ -232,6 +246,9 @@
 			isa = PBXGroup;
 			children = (
 				C2D48C9718557034005B0BFC /* reveal-icon.png */,
+				C2F1888E185AEEFA00BED27E /* images.jpeg */,
+				C2F1888C185AE3A300BED27E /* events.plist */,
+				C2F18895185B05E900BED27E /* eventImage.jpeg */,
 				C2D48C9818557034005B0BFC /* reveal-icon@2x.png */,
 			);
 			name = Resources;
@@ -312,8 +329,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F18894185B010600BED27E /* EventDetailViewController.xib in Resources */,
 				C2D48C191853B595005B0BFC /* InfoPlist.strings in Resources */,
+				C2F1888F185AEEFA00BED27E /* images.jpeg in Resources */,
 				C2D48C4F18551498005B0BFC /* MyEventViewController.xib in Resources */,
+				C2F18896185B05E900BED27E /* eventImage.jpeg in Resources */,
+				C2F1888D185AE3A300BED27E /* events.plist in Resources */,
 				C2D48C9A18557034005B0BFC /* reveal-icon@2x.png in Resources */,
 				C2D48CA3185592D7005B0BFC /* SettingsViewController.xib in Resources */,
 				C2D48C95185516AD005B0BFC /* RearViewController.xib in Resources */,
@@ -340,6 +361,7 @@
 			files = (
 				C2D48C1F1853B595005B0BFC /* AppDelegate.m in Sources */,
 				C2D48C1B1853B595005B0BFC /* main.m in Sources */,
+				C2F18893185B010600BED27E /* EventDetailViewController.m in Sources */,
 				C2D48C8E185515D7005B0BFC /* FriendEventViewController.m in Sources */,
 				C2D48C4A185511E5005B0BFC /* SWRevealViewController.m in Sources */,
 				C2D48C94185516AD005B0BFC /* RearViewController.m in Sources */,
@@ -422,6 +444,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2BF307ED-7381-42B6-9E2D-8BC10EC72C1F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -455,6 +478,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "2BF307ED-7381-42B6-9E2D-8BC10EC72C1F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
