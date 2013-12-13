@@ -54,7 +54,6 @@
 		C2D48C0E1853B595005B0BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2D48C101853B595005B0BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C2D48C121853B595005B0BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C2D48C161853B595005B0BFC /* Event Mockup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Event Mockup-Info.plist"; sourceTree = "<group>"; };
 		C2D48C181853B595005B0BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2D48C1A1853B595005B0BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2D48C1C1853B595005B0BFC /* cinequest23-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cinequest23-Prefix.pch"; sourceTree = "<group>"; };
@@ -121,7 +120,7 @@
 		C2D48C021853B595005B0BFC = {
 			isa = PBXGroup;
 			children = (
-				C2D48C141853B595005B0BFC /* Event Mockup */,
+				C2D48C141853B595005B0BFC /* cinequest23 */,
 				C2D48C201853B595005B0BFC /* Images.xcassets */,
 				C2D48C47185511BC005B0BFC /* SWRevealViewController */,
 				C2D48C2D1853B595005B0BFC /* Event MockupTests */,
@@ -152,7 +151,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2D48C141853B595005B0BFC /* Event Mockup */ = {
+		C2D48C141853B595005B0BFC /* cinequest23 */ = {
 			isa = PBXGroup;
 			children = (
 				C2D48C1D1853B595005B0BFC /* AppDelegate.h */,
@@ -163,13 +162,13 @@
 				C2D48C9618557017005B0BFC /* Resources */,
 				C2D48C151853B595005B0BFC /* Supporting Files */,
 			);
+			name = cinequest23;
 			path = "Event Mockup";
 			sourceTree = "<group>";
 		};
 		C2D48C151853B595005B0BFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2D48C161853B595005B0BFC /* Event Mockup-Info.plist */,
 				C2D48C171853B595005B0BFC /* InfoPlist.strings */,
 				C2D48C1A1853B595005B0BFC /* main.m */,
 				C2D48C1C1853B595005B0BFC /* cinequest23-Prefix.pch */,
@@ -301,6 +300,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Hai Nguyen";
 				TargetAttributes = {
+					C2D48C0A1853B595005B0BFC = {
+						DevelopmentTeam = 5729M5Y5C8;
+					};
 					C2D48C251853B595005B0BFC = {
 						TestTargetID = C2D48C0A1853B595005B0BFC;
 					};
@@ -489,10 +491,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Event Mockup/cinequest23-Prefix.pch";
-				INFOPLIST_FILE = "Event Mockup/Event Mockup-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Event MockupTests/cinequest23Tests-Info.plist";
 				PRODUCT_NAME = cinequest23;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -502,10 +507,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Event Mockup/cinequest23-Prefix.pch";
-				INFOPLIST_FILE = "Event Mockup/Event Mockup-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Event MockupTests/cinequest23Tests-Info.plist";
 				PRODUCT_NAME = cinequest23;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
