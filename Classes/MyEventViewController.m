@@ -59,7 +59,7 @@ NSArray *dicts;
                                             [NSArray arrayWithObjects:@"List",@"Map",
                                              nil]];
     self.segmentedControl = segmentedControl;
-    //[self.segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+    [self.segmentedControl addTarget:self action:@selector(switchView:) forControlEvents:UIControlEventValueChanged];
     
     self.navigationItem.titleView = self.segmentedControl;
     self.segmentedControl.selectedSegmentIndex = LIST;
@@ -239,6 +239,29 @@ NSArray *dicts;
 {
 	EventDetailViewController *eventDetail = [[EventDetailViewController alloc] init];
 	[[self navigationController] pushViewController:eventDetail animated:YES];
+}
+
+- (IBAction) switchView:(id)sender
+{
+    switcher = [sender selectedSegmentIndex];
+    switch (switcher)
+	{
+		case LIST:
+			self.tableView.hidden = NO;
+            self.mapView.hidden = YES;
+			break;
+			
+		case MAP:
+			self.tableView.hidden = YES;
+            self.mapView.hidden = NO;
+            self.mapView.showsUserLocation = YES;
+			break;
+			
+		default:
+			break;
+	}
+	
+	[self.tableView reloadData];
 }
 
 @end

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
-               BuildableName = "Event Mockup.app"
+               BuildableName = "cinequest23.app"
                BlueprintName = "cinequest23"
                ReferencedContainer = "container:cinequest23.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D48C251853B595005B0BFC"
-               BuildableName = "Event MockupTests.xctest"
+               BuildableName = "cinequest23Tests.xctest"
                BlueprintName = "cinequest23Tests"
                ReferencedContainer = "container:cinequest23.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
-            BuildableName = "Event Mockup.app"
+            BuildableName = "cinequest23.app"
             BlueprintName = "cinequest23"
             ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
-            BuildableName = "Event Mockup.app"
+            BuildableName = "cinequest23.app"
             BlueprintName = "cinequest23"
             ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D48C0A1853B595005B0BFC"
-            BuildableName = "Event Mockup.app"
+            BuildableName = "cinequest23.app"
             BlueprintName = "cinequest23"
             ReferencedContainer = "container:cinequest23.xcodeproj">
          </BuildableReference>
